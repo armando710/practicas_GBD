@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="armandoaf">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="ARMANDOAF">
+      <ObjectId>507</ObjectId>
+      <IntrospectionTimestamp>2018-02-02.10:08:21</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-01-22.10:01:17</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="JORGE">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="GEOGRAFIA">
+      <ObjectId>234</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="CLASES">
+      <ObjectId>239</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="ALMACEN">
+      <ObjectId>240</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="HR">
+      <ObjectId>242</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PADREMADRE">
+      <ObjectId>244</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="FUTBOL">
+      <ObjectId>245</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="CINE">
+      <ObjectId>246</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="TRENES">
+      <ObjectId>247</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="RECETAS">
+      <ObjectId>258</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="VIDEOCLUB">
+      <ObjectId>259</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="TIENDAMIA">
+      <ObjectId>272</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="TOROS">
+      <ObjectId>369</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="REDSOCIAL">
+      <ObjectId>370</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="MWREP">
+      <ObjectId>371</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="NBA">
+      <ObjectId>384</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="ELECCIONES">
+      <ObjectId>386</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="OFICINAS">
+      <ObjectId>470</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="JORGE2">
+      <ObjectId>482</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="ALVAROALEANG">
+      <ObjectId>484</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="IHSSANE">
+      <ObjectId>485</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="ESPINOSAZORGOR">
+      <ObjectId>486</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="GONZALEZBELALF">
+      <ObjectId>488</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="MUÑOZPARFER">
+      <ObjectId>493</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="PALOMINOCRUALV">
+      <ObjectId>494</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="TEJEDOROLEDAV">
+      <ObjectId>496</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="VELASCOBLADAV">
+      <ObjectId>497</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="PABLO">
+      <ObjectId>499</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="CONEXIONES">
+      <ObjectId>500</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="NATI">
+      <ObjectId>501</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="USUARIOENERO">
+      <ObjectId>504</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="CREADOR1">
+      <ObjectId>505</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="ADOLFOBS">
+      <ObjectId>508</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="MIGUELDL">
+      <ObjectId>509</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="IHSSANEE">
+      <ObjectId>510</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="VICTORIAFS">
+      <ObjectId>511</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="JOSEMARIAGC">
+      <ObjectId>512</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="ALVAROGR">
+      <ObjectId>513</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="IGNACIOFRANCISCOJC">
+      <ObjectId>514</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="OSCARPP">
+      <ObjectId>515</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="ISMAELPD">
+      <ObjectId>516</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="DIEGOPM">
+      <ObjectId>517</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="RAULRD">
+      <ObjectId>518</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="ALEXSG">
+      <ObjectId>519</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="DAVIDTO">
+      <ObjectId>520</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="ALUMNO1">
+      <ObjectId>521</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="79" parent="2" name="ALMACENES">
+      <ObjectId>263847</ObjectId>
+      <CreatedTimestamp>2018-02-02.08:56:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.08:56:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="80" parent="2" name="EMPRESAS">
+      <ObjectId>263935</ObjectId>
+      <CreatedTimestamp>2018-02-02.09:15:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="81" parent="2" name="EXISTENCIAS">
+      <ObjectId>264118</ObjectId>
+      <CreatedTimestamp>2018-02-02.10:08:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="82" parent="2" name="PIEZAS">
+      <ObjectId>263889</ObjectId>
+      <CreatedTimestamp>2018-02-02.09:05:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.09:05:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="83" parent="2" name="PRUEBA">
+      <ObjectId>262663</ObjectId>
+      <CreatedTimestamp>2018-01-22.10:01:17</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-22.10:01:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="84" parent="2" name="SUMINISTROS">
+      <ObjectId>264120</ObjectId>
+      <CreatedTimestamp>2018-02-02.10:08:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="85" parent="2" name="TAREAS">
+      <ObjectId>263069</ObjectId>
+      <CreatedTimestamp>2018-01-26.08:44:29</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-26.08:44:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="86" parent="2" name="TIPOS_PIEZA">
+      <ObjectId>263840</ObjectId>
+      <CreatedTimestamp>2018-02-02.08:54:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.08:54:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="87" parent="79" name="N_ALMACENES">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="79" name="DESCRIPCION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(2000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="79" name="DIRECCION">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <index id="90" parent="79" name="ALMACENES_PK">
+      <ObjectId>263848</ObjectId>
+      <CreatedTimestamp>2018-02-02.08:56:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.08:56:48</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>N_ALMACENES</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="79" name="ALMACENES_PK">
+      <ModifiedTimestamp>2018-02-02.08:56:48</ModifiedTimestamp>
+      <ColNames>N_ALMACENES</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ALMACENES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="92" parent="79" name="ALMACENES_NN">
+      <ModifiedTimestamp>2018-02-02.08:56:48</ModifiedTimestamp>
+      <ColNames>DESCRIPCION</ColNames>
+      <Predicate>&quot;DESCRIPCION&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="93" parent="80" name="CIF">
+      <Position>1</Position>
+      <DataType>CHAR(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="80" name="NOMBRE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="80" name="TELEFONO">
+      <Position>3</Position>
+      <DataType>CHAR(9)|0</DataType>
+    </column>
+    <column id="96" parent="80" name="DIRECCION">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="97" parent="80" name="LOCALIDAD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="98" parent="80" name="PROVINCIA">
+      <Position>6</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="99" parent="80" name="EMPRESAS_PK">
+      <ObjectId>263936</ObjectId>
+      <CreatedTimestamp>2018-02-02.09:15:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>CIF</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="80" name="EMPRESAS">
+      <ObjectId>263937</ObjectId>
+      <CreatedTimestamp>2018-02-02.09:15:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>NOMBRE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="80" name="EMPRESAS_PK">
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <ColNames>CIF</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPRESAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="102" parent="80" name="EMPRESAS">
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EMPRESAS</UnderlyingIndexName>
+    </key>
+    <check id="103" parent="80" name="EMPRESAS_NN">
+      <ModifiedTimestamp>2018-02-02.09:15:34</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <Predicate>&quot;NOMBRE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="104" parent="81" name="TIPO">
+      <Position>1</Position>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="81" name="MODELO">
+      <Position>2</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="81" name="N_ALMACEN">
+      <Position>3</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="81" name="CANTIDAD">
+      <Position>4</Position>
+      <DataType>NUMBER(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="108" parent="81" name="EXISTENCIAS_PK">
+      <ObjectId>264119</ObjectId>
+      <CreatedTimestamp>2018-02-02.10:08:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>TIPO
+MODELO
+N_ALMACEN</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="109" parent="81" name="EXISTENCIAS_PK">
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <ColNames>TIPO
+MODELO
+N_ALMACEN</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EXISTENCIAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="110" parent="81" name="EXISTENCIAS_FK1">
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <ColNames>TIPO
+MODELO</ColNames>
+      <RefSchemaName>ARMANDOAF</RefSchemaName>
+      <RefTableName>PIEZAS</RefTableName>
+      <RefKeyName>PIEZAS</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="111" parent="81" name="EXISTENCIAS_FK2">
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <ColNames>N_ALMACEN</ColNames>
+      <RefSchemaName>ARMANDOAF</RefSchemaName>
+      <RefTableName>ALMACENES</RefTableName>
+      <RefKeyName>ALMACENES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="112" parent="81" name="EXISTENCIAS_CK">
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <ColNames>CANTIDAD</ColNames>
+      <Predicate>cantidad&gt;0</Predicate>
+    </check>
+    <check id="113" parent="81" name="EXISTENCIAS_NN">
+      <ModifiedTimestamp>2018-02-02.10:08:05</ModifiedTimestamp>
+      <ColNames>CANTIDAD</ColNames>
+      <Predicate>&quot;CANTIDAD&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="114" parent="82" name="TIPO">
+      <Position>1</Position>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="82" name="MODELO">
+      <Position>2</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="82" name="PRECIO_VENTA">
+      <Position>3</Position>
+      <DataType>NUMBER(11,4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="117" parent="82" name="PIEZAS">
+      <ObjectId>263890</ObjectId>
+      <CreatedTimestamp>2018-02-02.09:05:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.09:05:06</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>TIPO
+MODELO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="82" name="PIEZAS">
+      <ModifiedTimestamp>2018-02-02.09:05:06</ModifiedTimestamp>
+      <ColNames>TIPO
+MODELO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PIEZAS</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="119" parent="82" name="PIEZAS_FK1">
+      <ModifiedTimestamp>2018-02-02.09:05:06</ModifiedTimestamp>
+      <ColNames>TIPO</ColNames>
+      <RefSchemaName>ARMANDOAF</RefSchemaName>
+      <RefTableName>TIPOS_PIEZA</RefTableName>
+      <RefKeyName>TIPOS_PIEZA_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="120" parent="82" name="PIEZAS_NN">
+      <ModifiedTimestamp>2018-02-02.09:05:06</ModifiedTimestamp>
+      <ColNames>PRECIO_VENTA</ColNames>
+      <Predicate>&quot;PRECIO_VENTA&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="121" parent="83" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+    </column>
+    <column id="122" parent="83" name="NOMBRE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="123" parent="84" name="TIPO">
+      <Position>1</Position>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="84" name="MODELO">
+      <Position>2</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="84" name="CIF">
+      <Position>3</Position>
+      <DataType>CHAR(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="84" name="PRECIO_COMPRA">
+      <Position>4</Position>
+      <DataType>NUMBER(11,4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="127" parent="84" name="SUMINISTROS_PK">
+      <ObjectId>264121</ObjectId>
+      <CreatedTimestamp>2018-02-02.10:08:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>TIPO
+MODELO
+CIF</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="128" parent="84" name="SUMINISTROS_PK">
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <ColNames>TIPO
+MODELO
+CIF</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SUMINISTROS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="129" parent="84" name="SUMINISTROS_FK1">
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <ColNames>TIPO
+MODELO</ColNames>
+      <RefSchemaName>ARMANDOAF</RefSchemaName>
+      <RefTableName>PIEZAS</RefTableName>
+      <RefKeyName>PIEZAS</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="130" parent="84" name="SUMINISTROS_FK2">
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <ColNames>CIF</ColNames>
+      <RefSchemaName>ARMANDOAF</RefSchemaName>
+      <RefTableName>EMPRESAS</RefTableName>
+      <RefKeyName>EMPRESAS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="131" parent="84" name="SUMINISTROS_CK">
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <ColNames>PRECIO_COMPRA</ColNames>
+      <Predicate>precio_compra&gt;0</Predicate>
+    </check>
+    <check id="132" parent="84" name="SUMINISTROS_NN">
+      <ModifiedTimestamp>2018-02-02.10:08:20</ModifiedTimestamp>
+      <ColNames>PRECIO_COMPRA</ColNames>
+      <Predicate>&quot;PRECIO_COMPRA&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="133" parent="85" name="ID_TAREAS">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="134" parent="85" name="DESCRIPCION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="135" parent="86" name="TIPO">
+      <Position>1</Position>
+      <DataType>CHAR(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="86" name="DESCRIPCION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="137" parent="86" name="TIPOS_PIEZA_PK">
+      <ObjectId>263841</ObjectId>
+      <CreatedTimestamp>2018-02-02.08:54:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-02.08:54:23</ModifiedTimestamp>
+      <TablespaceName>USUARIOS</TablespaceName>
+      <ColNames>TIPO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="138" parent="86" name="TIPOS_PIEZA_PK">
+      <ModifiedTimestamp>2018-02-02.08:54:23</ModifiedTimestamp>
+      <ColNames>TIPO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TIPOS_PIEZA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="139" parent="86" name="TIPOS_PIEZA_NN">
+      <ModifiedTimestamp>2018-02-02.08:54:23</ModifiedTimestamp>
+      <ColNames>DESCRIPCION</ColNames>
+      <Predicate>&quot;DESCRIPCION&quot; IS NOT NULL</Predicate>
+    </check>
+  </database-model>
+</dataSource>
