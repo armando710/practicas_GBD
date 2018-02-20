@@ -9,12 +9,7 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>armandoaf</user-name>
-      <introspection-schemas>*:ARMANDOAF</introspection-schemas>
-    </data-source>
-    <data-source name="@localhost" uuid="477f026c-3a10-42ab-af82-c87a177219fa">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
+      <introspection-schemas>*:ARMANDOAF,GEOGRAFIA</introspection-schemas>
     </data-source>
   </component>
 </project>
