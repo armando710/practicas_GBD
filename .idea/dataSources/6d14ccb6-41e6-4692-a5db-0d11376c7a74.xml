@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Examen_cine">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="CINE">
+      <ObjectId>246</ObjectId>
+      <IntrospectionTimestamp>2018-03-16.08:27:17</IntrospectionTimestamp>
+      <CreatedTimestamp>2014-05-13.22:53:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-16.00:33:26</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="JORGE">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="GEOGRAFIA">
+      <ObjectId>234</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="CLASES">
+      <ObjectId>239</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="ALMACEN">
+      <ObjectId>240</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="HR">
+      <ObjectId>242</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PADREMADRE">
+      <ObjectId>244</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="FUTBOL">
+      <ObjectId>245</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="TRENES">
+      <ObjectId>247</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="RECETAS">
+      <ObjectId>258</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="VIDEOCLUB">
+      <ObjectId>259</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="TIENDAMIA">
+      <ObjectId>272</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="TOROS">
+      <ObjectId>369</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="REDSOCIAL">
+      <ObjectId>370</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="MWREP">
+      <ObjectId>371</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="NBA">
+      <ObjectId>384</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="ELECCIONES">
+      <ObjectId>386</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="OFICINAS">
+      <ObjectId>470</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="JORGE2">
+      <ObjectId>482</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="ALVAROALEANG">
+      <ObjectId>484</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="ESPINOSAZORGOR">
+      <ObjectId>486</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="GONZALEZBELALF">
+      <ObjectId>488</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="MUÑOZPARFER">
+      <ObjectId>493</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="PALOMINOCRUALV">
+      <ObjectId>494</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="TEJEDOROLEDAV">
+      <ObjectId>496</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="VELASCOBLADAV">
+      <ObjectId>497</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="PABLO">
+      <ObjectId>499</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="CONEXIONES">
+      <ObjectId>500</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="NATI">
+      <ObjectId>501</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="USUARIOENERO">
+      <ObjectId>504</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="CREADOR1">
+      <ObjectId>505</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="ARMANDOAF">
+      <ObjectId>507</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="ADOLFOBS">
+      <ObjectId>508</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="MIGUELDL">
+      <ObjectId>509</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="IHSSANEE">
+      <ObjectId>510</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="VICTORIAFS">
+      <ObjectId>511</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="JOSEMARIAGC">
+      <ObjectId>512</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="ALVAROGR">
+      <ObjectId>513</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="IGNACIOFRANCISCOJC">
+      <ObjectId>514</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="OSCARPP">
+      <ObjectId>515</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="ISMAELPD">
+      <ObjectId>516</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="DIEGOPM">
+      <ObjectId>517</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="RAULRD">
+      <ObjectId>518</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="ALEXSG">
+      <ObjectId>519</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="DAVIDTO">
+      <ObjectId>520</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="ALUMNO1">
+      <ObjectId>521</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <table id="78" parent="2" name="CRITICAR">
+      <ObjectId>123424</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2017-05-30.17:50:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="79" parent="2" name="CRITICOS">
+      <ObjectId>123413</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:14</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="80" parent="2" name="HABLAR">
+      <ObjectId>123428</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="81" parent="2" name="LENGUAS">
+      <ObjectId>123418</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="82" parent="2" name="PAISES">
+      <ObjectId>123415</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="83" parent="2" name="PELICULAS">
+      <ObjectId>123421</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="84" parent="2" name="PELICULAS_COMPLETO">
+      <ObjectId>270131</ObjectId>
+      <CreatedTimestamp>2018-03-16.00:32:24</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-16.00:33:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="85" parent="2" name="PRODUCIR">
+      <ObjectId>123426</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <routine id="86" parent="2" name="INSERTAR_PELICULAS_COMPLETO">
+      <ObjectId>270130</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2018-03-16.00:13:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-16.00:32:42</ModifiedTimestamp>
+    </routine>
+    <column id="87" parent="78" name="ID_CRITICO">
+      <Position>1</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="78" name="ID_PELI">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="78" name="ESTRELLAS">
+      <Position>3</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="78" name="FECHA">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="91" parent="78" name="CRITICAR_PK">
+      <ObjectId>123425</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_CRITICO
+ID_PELI</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="78" name="CRITICAR_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_CRITICO
+ID_PELI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CRITICAR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="78" name="CRITICAR_FK1">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_CRITICO</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>CRITICOS</RefTableName>
+      <RefKeyName>CRITICOS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="94" parent="78" name="CRITICAR_FK2">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_PELI</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>PELICULAS</RefTableName>
+      <RefKeyName>PELICULAS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="95" parent="78" name="CRITICAR_CK1">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ESTRELLAS</ColNames>
+      <Predicate>estrellas BETWEEN 1 AND 5</Predicate>
+    </check>
+    <check id="96" parent="78" name="CRITICAR_NN1">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ESTRELLAS</ColNames>
+      <Predicate>&quot;ESTRELLAS&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="97" parent="79" name="ID_CRITICO">
+      <Position>1</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="79" name="NOMBRE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="79" name="APELLIDO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="100" parent="79" name="CRITICOS_PK">
+      <ObjectId>123414</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:14</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:14</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_CRITICO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="79" name="CRITICOS_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:14</ModifiedTimestamp>
+      <ColNames>ID_CRITICO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>CRITICOS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <check id="102" parent="79" name="CRITICOS_NN1">
+      <ModifiedTimestamp>2014-05-13.22:53:14</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <Predicate>&quot;NOMBRE&quot; IS NOT NULL</Predicate>
+    </check>
+    <check id="103" parent="79" name="CRITICOS_NN2">
+      <ModifiedTimestamp>2014-05-13.22:53:14</ModifiedTimestamp>
+      <ColNames>APELLIDO</ColNames>
+      <Predicate>&quot;APELLIDO&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="104" parent="80" name="ID_LENGUA">
+      <Position>1</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="80" name="ID_PAIS">
+      <Position>2</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="106" parent="80" name="HABLAR_PK">
+      <ObjectId>123429</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_LENGUA
+ID_PAIS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="80" name="HABLAR_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_LENGUA
+ID_PAIS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>HABLAR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="108" parent="80" name="HABLAR_FK1">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_LENGUA</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>LENGUAS</RefTableName>
+      <RefKeyName>LENGUA_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="109" parent="80" name="HABLAR_FK2">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_PAIS</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>PAISES</RefTableName>
+      <RefKeyName>PAISES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="110" parent="81" name="ID_LENGUA">
+      <Position>1</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="81" name="NOMBRE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="112" parent="81" name="LENGUA_PK">
+      <ObjectId>123419</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_LENGUA</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="113" parent="81" name="LENGUA_UK1">
+      <ObjectId>123420</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NOMBRE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="114" parent="81" name="LENGUA_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>ID_LENGUA</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LENGUA_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="115" parent="81" name="LENGUA_UK1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>LENGUA_UK1</UnderlyingIndexName>
+    </key>
+    <check id="116" parent="81" name="LENGUA_NN1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <Predicate>&quot;NOMBRE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="117" parent="82" name="ID_PAIS">
+      <Position>1</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="82" name="NOMBRE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="119" parent="82" name="PAISES_PK">
+      <ObjectId>123416</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PAIS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="120" parent="82" name="PAISES_UK1">
+      <ObjectId>123417</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NOMBRE</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="82" name="PAISES_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>ID_PAIS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PAISES_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="122" parent="82" name="PAISES_UK1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PAISES_UK1</UnderlyingIndexName>
+    </key>
+    <check id="123" parent="82" name="PAISES_NN1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>NOMBRE</ColNames>
+      <Predicate>&quot;NOMBRE&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="124" parent="83" name="ID_PELI">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="83" name="TITULO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="83" name="DURACION">
+      <Position>3</Position>
+      <DataType>INTERVAL DAY(2) TO SECOND(6)|0</DataType>
+    </column>
+    <column id="127" parent="83" name="ID_LENGUA">
+      <Position>4</Position>
+      <DataType>NUMBER(3)|0</DataType>
+    </column>
+    <index id="128" parent="83" name="PELICULAS_PK">
+      <ObjectId>123422</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PELI</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="129" parent="83" name="PELICULAS_UK1">
+      <ObjectId>123423</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:15</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>TITULO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="130" parent="83" name="PELICULAS_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>ID_PELI</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PELICULAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="131" parent="83" name="PELICULAS_UK1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>TITULO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PELICULAS_UK1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="132" parent="83" name="PELICULAS_FK1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>ID_LENGUA</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>LENGUAS</RefTableName>
+      <RefKeyName>LENGUA_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="133" parent="83" name="PELICULAS_NN1">
+      <ModifiedTimestamp>2014-05-13.22:53:15</ModifiedTimestamp>
+      <ColNames>TITULO</ColNames>
+      <Predicate>&quot;TITULO&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="134" parent="84" name="ID_PELI">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="135" parent="84" name="TITULO">
+      <Position>2</Position>
+      <DataType>VARCHAR2(40)|0</DataType>
+    </column>
+    <column id="136" parent="84" name="DURACION">
+      <Position>3</Position>
+      <DataType>INTERVAL DAY(2) TO SECOND(6)|0</DataType>
+    </column>
+    <column id="137" parent="84" name="NOMBRE_CRITICO">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="138" parent="84" name="APELLIDO_CRITICO">
+      <Position>5</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="139" parent="84" name="ESTRELLAS">
+      <Position>6</Position>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <column id="140" parent="84" name="FECHA">
+      <Position>7</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="141" parent="84" name="PAISES">
+      <Position>8</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="142" parent="84" name="LENGUA">
+      <Position>9</Position>
+      <DataType>VARCHAR2(30)|0</DataType>
+    </column>
+    <column id="143" parent="85" name="ID_PELI">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="85" name="ID_PAIS">
+      <Position>2</Position>
+      <DataType>NUMBER(3)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="145" parent="85" name="PRODUCIR_PK">
+      <ObjectId>123427</ObjectId>
+      <CreatedTimestamp>2014-05-13.22:53:16</CreatedTimestamp>
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID_PELI
+ID_PAIS</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="146" parent="85" name="PRODUCIR_PK">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_PELI
+ID_PAIS</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PRODUCIR_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="147" parent="85" name="PRODUCIR_FK1">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_PELI</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>PELICULAS</RefTableName>
+      <RefKeyName>PELICULAS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="148" parent="85" name="PRODUCIR_FK2">
+      <ModifiedTimestamp>2014-05-13.22:53:16</ModifiedTimestamp>
+      <ColNames>ID_PAIS</ColNames>
+      <RefSchemaName>CINE</RefSchemaName>
+      <RefTableName>PAISES</RefTableName>
+      <RefKeyName>PAISES_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

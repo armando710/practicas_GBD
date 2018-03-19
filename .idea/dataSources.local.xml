@@ -9,7 +9,37 @@
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>armandoaf</user-name>
-      <introspection-schemas>*:ARMANDOAF,GEOGRAFIA</introspection-schemas>
+      <introspection-schemas>*:ARMANDOAF</introspection-schemas>
+    </data-source>
+    <data-source name="clases" uuid="76e58755-2cc4-408e-8e91-dfec6f14dd68">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>clases</user-name>
+      <introspection-schemas>*:CLASES</introspection-schemas>
+    </data-source>
+    <data-source name="videoclub" uuid="96000a14-78bd-4f8f-a7e7-870b7ef9d203">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>videoclub</user-name>
+      <introspection-schemas>*:VIDEOCLUB</introspection-schemas>
+    </data-source>
+    <data-source name="Examen_cine" uuid="6d14ccb6-41e6-4692-a5db-0d11376c7a74">
+      <database-info product="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>cine</user-name>
+      <introspection-schemas>*:CINE</introspection-schemas>
     </data-source>
   </component>
 </project>
